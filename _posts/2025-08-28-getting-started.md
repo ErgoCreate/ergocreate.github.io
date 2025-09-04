@@ -26,13 +26,20 @@ pip install git+https://github.com/ErgoCreate/SimpleKivy.git
 {: .prompt-warning }
 
 ### Optional modules
-#### New features support - **Image**
-* New ***copy/paste/save*** functionalities introduced in **SimpleKivy** that require the following modules to work:
+#### New features support
+##### Image
+- New `copy/paste/save` functionalities introduced in **SimpleKivy** that require the following modules to work:
 ``` bash
 pip install pyperclipimg, requests, pillow
 ``` 
 
-* New ***svg source*** support introduced in **SimpleKivy** that requires the following modules to work:
+- New ***svg source*** support introduced in **SimpleKivy** that requires the following modules to work:
 ``` bash
 pip install CairoSVG
+``` 
+
+##### Camera
+- A new and improved `Camera` widget has been introduced in **SimpleKivy** that requires the following modules to work:
+``` bash
+pip install opencv-python
 ``` 
