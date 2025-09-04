@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimpleKivy</title>
+    <title>{{ site.title }}</title>
     <link rel="icon" href="assets/img/favicons/favicon.svg">
     <style>
     :root {
@@ -401,8 +401,8 @@
         <div class="container">
             <nav>
                 <div class="logo-container">
-                    <a href="#"><div class="logo">SK</div></a>
-                    <a href="#" class="logo-text">SimpleKivy</a>
+                    <a href="#"><img src="assets/img/favicons/web-app-manifest-192x192.png" width="40" height="40"></a>
+                    <a href="#" class="logo-text">{{ site.title }}</a>
                 </div>
                 <ul class="nav-links">
                     <li><a href="#">Home</a></li>
@@ -417,8 +417,8 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>IT Solutions for Modern Businesses</h1>
-            <p>We provide cutting-edge technology services to help your business grow and thrive in the digital age. Our team of experts delivers innovative solutions tailored to your specific needs.</p>
+            <h1>{{ site.tagline }}</h1>
+            <p>{{ site.description }}</p>
             <div class="btn-container">
                 <a href="#" class="btn">Get Started</a>
             </div>
@@ -429,7 +429,7 @@
     <section class="features">
         <div class="container">
             <div class="section-title">
-                <h2>Why SimpleKivy?</h2>
+                <h2>Why {{ site.title }}?</h2>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
@@ -470,16 +470,20 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>Follow SimpleKivy</h3>
+                    <h3>Follow {{site.title}}</h3>
                     <div class="social-links">
+                        <!-- <a href="#">📘</a> -->
                         <a style="font-size: 25px; color: #FF0033;" href="https://www.youtube.com/@ErgoCreate?sub_confirmation=1"><span class="iconify" data-icon="mdi-youtube"></span></a>
                         <a style="font-size: 25px; color: #FF5E08;" href="https://www.patreon.com/ErgoCreate/membership"><span class="iconify" data-icon="mdi-patreon"></span></a>
                         <a style="font-size: 25px;" href="https://github.com/ErgoCreate/SimpleKivy/"><span class="iconify" data-icon="mdi-github"></span></a>
+                        <!-- <a href="#">📸</a>
+                        <a href="#">🐦</a>
+                        <a href="#">💼</a> -->
                     </div>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 SimpleKivy. All rights reserved.</p>
+                <p>&copy; 2025 {{site.github.username}}. All rights reserved.</p>
             </div>
         </div>
     </footer>
