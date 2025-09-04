@@ -11,7 +11,7 @@ tags: ['modal', 'view']
 `SimpleKivy.SimpleKivy.ModalView(widgets=[], k=None, enable_events=False, on_event='on_pre_open', **kwargs)`{: .python}
 
 
-Creates a ModalView widget dynamically with added functionalities.
+Creates and fills a ModalView widget dynamically with added functionalities.
 
 Parameters
 ----------
@@ -126,5 +126,5 @@ Kivy Bases
 
 {: .prompt-info }
 
-> This section only details the new or modified features. All other parameters inherit from the base Kivy widget and can be found in the [official Kivy documentation](https://kivy.org/doc/stable).
+> This page only details the new or modified features. All other parameters inherit from the base Kivy widgets and can be found in the [official Kivy documentation](https://kivy.org/doc/stable).
 

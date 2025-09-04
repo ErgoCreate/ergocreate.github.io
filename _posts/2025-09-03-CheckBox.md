@@ -123,5 +123,5 @@ Kivy Bases
 
 {: .prompt-info }
 
-> This section only details the new or modified features. All other parameters inherit from the base Kivy widget and can be found in the [official Kivy documentation](https://kivy.org/doc/stable).
+> This page only details the new or modified features. All other parameters inherit from the base Kivy widgets and can be found in the [official Kivy documentation](https://kivy.org/doc/stable).
 
