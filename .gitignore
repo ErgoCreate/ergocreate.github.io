@@ -1,3 +1,6 @@
+# Serve bat file
+serve.bat
+
 # Bundler cache
 .bundle
 vendor

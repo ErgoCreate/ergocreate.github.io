@@ -5,7 +5,7 @@ order: 1
 toc: true
 ---
 
-Welcome to SimpleKivy’s Documentation
+Welcome to SimpleKivy
 -------------------------------------
 
 SimpleKivy is an open-source Python library that provides a simplified and intuitive way to build modern, cross-platform GUI applications, harnessing the full graphical power of the Kivy framework.

@@ -8,7 +8,7 @@ categories: ["Api", "Widgets"]
 tags: ['button', 'clear']
 
 ---
-`SimpleKivy.SimpleKivy.ClearButton(*args, hover_highlight=True, lcolor='', markup=True, **kwargs)`{: .python}
+`SimpleKivy.SimpleKivy.ClearButton(text='button', hover_highlight=True, lcolor='', markup=True, **kwargs)`{: .python}
 
 
 ![ClearButton.png](assets/img/docs/ClearButton.png){: width="170" height="60" }
