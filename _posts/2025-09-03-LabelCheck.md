@@ -13,7 +13,7 @@ tags: ['check', 'label']
 
 ![LabelCheck.png](assets/img/docs/LabelCheck.png){: width="193" height="75" }
 
-![LabelCheck.2.png](assets/img/docs/LabelCheck.2.png){: width="212" height="135" }
+![LabelCheck.2.png](assets/img/docs/LabelCheck.2.png){: width="215" height="136" }
 
 
 {: .prompt-info }

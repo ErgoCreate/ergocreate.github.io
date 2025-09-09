@@ -11,7 +11,7 @@ tags: ['button', 'clear', 'round']
 `SimpleKivy.SimpleKivy.ClearRoundButton(*args, hover_highlight=True, lcolor='gray', markup=True, **kwargs)`{: .python}
 
 
-![ClearRoundButton.png](assets/img/docs/ClearRoundButton.png){: width="170" height="75" }
+![ClearRoundButton.png](assets/img/docs/ClearRoundButton.png){: width="171" height="76" }
 
 
 {: .prompt-info }

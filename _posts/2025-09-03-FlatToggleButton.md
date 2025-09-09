@@ -11,9 +11,9 @@ tags: ['button', 'flat', 'toggle']
 `SimpleKivy.SimpleKivy.FlatToggleButton(text='button', enable_events=False, k=None, on_event='on_state_down', hover_highlight=False, **kwargs)`{: .python}
 
 
-![FlatToggleButton.png](assets/img/docs/FlatToggleButton.png){: width="193" height="30" }
+![FlatToggleButton.png](assets/img/docs/FlatToggleButton.png){: width="195" height="30" }
 
-![FlatToggleButton.2.png](assets/img/docs/FlatToggleButton.2.png){: width="193" height="30" }
+![FlatToggleButton.2.png](assets/img/docs/FlatToggleButton.2.png){: width="195" height="30" }
 
 
 {: .prompt-info }

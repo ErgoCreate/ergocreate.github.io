@@ -43,3 +43,7 @@ pip install CairoSVG
 ``` bash
 pip install opencv-python
 ``` 
+
+### Next steps
+Now that you have everything ready, you can: 
+- [Check the documentation.](/documentation)

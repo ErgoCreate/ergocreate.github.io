@@ -10,14 +10,14 @@ tags: ['colors']
 ---
 
 
-Below is the comple list of all named colors supported by `SimpleKivy`, based in `matplotlib`'s [list of named colors](https://matplotlib.org/stable/gallery/color/named_colors), with the addition of colors `""` and `"transparent"`, that set the color to `[0,0,0,0]`.
+Below is the comple list of all named colors supported by `SimpleKivy`, based on [matplotlib's list of named colors](https://matplotlib.org/stable/gallery/color/named_colors), with the addition of colors `""` and `"transparent"` which set the color to `[0,0,0,0]`.
 They can be used during creation for ***any*** property that includes the word ***"color"*** in its name, and after creation for *almost* every custom `SimpleKivy` widget.
 
 - Example
 ```python
 sk.Button("button", background_color = "xkcd:marine")
 sk.Label("label", bcolor = "tab:blue", lcolor = "k", color="xkcd:almost black")
-sk.FlatRoundButton("button", bcolor_normal="",lcolor="k")
+sk.FlatRoundButton("button", lcolor = "c", bcolor_normal = "", text_color = "lightcyan", bcolor_down = "darkcyan")
 ```
 
 ## CSS4/X11
