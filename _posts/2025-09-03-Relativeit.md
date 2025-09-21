@@ -16,8 +16,8 @@ tags: ['layout', 'layout constructor', 'relative']
 
 Dynamic `RelativeLayout` constructor.
 
-Parameters
-----------
+## Parameters
+
 
 `*widgets: Widget`
 
@@ -141,12 +141,12 @@ sk.Relativeit(enable_events = True, on_event = {"size": lambda ins,v: print("siz
 > Width of the widget's border line.
 
 
-Returns
--------
+## Returns
+
 `RelativeLayout` created dynamically with `*widgets` added as children during creation.
 
-Kivy Bases
-----------
+## Kivy Bases
+
 `RelativeLayout`
 
 

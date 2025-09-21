@@ -10,7 +10,7 @@ Welcome to SimpleKivy
 
 SimpleKivy is an open-source Python library that provides a simplified and intuitive way to build modern, cross-platform GUI applications, harnessing the full graphical power of the Kivy framework.
 
-We recommend that you [get started](/posts/getting-started/) with the installation guide. Then, jump right into the [Quickstart Tutorial](quickstart.md) to see how easy it is to build your first app. If you're impatient to see code, check out our [Examples](examples.md) page.
+We recommend that you [get started](/posts/getting-started/) with the installation guide. Then, jump right into the [Quickstart Tutorial](/posts/quickstart) to see how easy it is to build your first app. If you're impatient to see code, check out our [Examples](examples.md) page.
 
 ## Getting Help
 
@@ -21,7 +21,14 @@ If your question isn't answered in the documentation, you can:
 **Don't forget to leave a star on [GitHub](https://github.com/ErgoCreate/SimpleKivy) if you find this project useful!**
 
 
+## Classes
+
+- [MyApp](/posts/MyApp)
+- [EventManager](/posts/EventManager)
+
 ## Widgets
+In `SimpleKivy`, widgets are created dynamically by creator functions, which construct the classes depending on creation parameters, besides the regular arguments. Below is a list of currently supported widget creator functions.
+
 - [ActionBar](/posts/ActionBar)
 - [ActionButton](/posts/ActionButton)
 - [ActionCheck](/posts/ActionCheck)

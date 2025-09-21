@@ -8,7 +8,7 @@ categories: ["Api", "Widgets"]
 tags: ['title', 'titlebar']
 
 ---
-`SimpleKivy.SimpleKivy.TitlebarTitle(k=-67191210201, padding=[8, 0], halign='left', **kwargs)`{: .python}
+`SimpleKivy.SimpleKivy.TitlebarTitle(k=NOTKEY, padding=[8, 0], halign='left', **kwargs)`{: .python}
 
 
 ![TitlebarTitle.png](assets/img/docs/TitlebarTitle.png){: width="234" height="60" }

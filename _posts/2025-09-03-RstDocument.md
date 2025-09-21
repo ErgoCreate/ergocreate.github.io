@@ -16,8 +16,8 @@ tags: ['document', 'rst']
 
 Creates a RstDocument widget dynamically with added functionalities.
 
-Parameters
-----------
+## Parameters
+
 
 `k: None, str, or NOTKEY`
 
@@ -108,12 +108,12 @@ sk.RstDocument(enable_events = True, on_event = {"size": lambda ins,v: print("si
 > Default is `False`.
 
 
-Returns
--------
+## Returns
+
 `RstDocument` widget created dynamically.
 
-Kivy Bases
-----------
+## Kivy Bases
+
 `RstDocument`
 
 

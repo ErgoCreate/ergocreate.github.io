@@ -18,7 +18,6 @@ tags: ['button', 'toggle']
 
 > The documentation of this widget creator function is under construction. Please come back at a latter date.
 
-Alias
------
+## Alias
 - **TButton**
 - **ToggleButton**

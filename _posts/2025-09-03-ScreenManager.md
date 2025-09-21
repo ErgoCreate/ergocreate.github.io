@@ -14,7 +14,6 @@ tags: ['manager', 'screen']
 transition: no slide card swap fade wipe fallout risein,
 
 
-Alias
------
+## Alias
 - **ScreenManager**
 - **Screens**

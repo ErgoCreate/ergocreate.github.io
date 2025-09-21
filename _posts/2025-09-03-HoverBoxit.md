@@ -16,16 +16,20 @@ tags: ['box', 'hover', 'layout', 'layout constructor']
 
 Dynamic `BoxLayout` constructor.
 
-Dynamic Creation Parameters
----------------------------
+## Dynamic Creation Parameters
+
 
 `hover_highlight: bool`
 
 > Whether the widget will have `HoverHighlightBehavior`. See [HoverHighlightBehavior](/posts/hoverhighlightbehavior) for more details.
+> - `False`: Nothing will happen on hover.
+
+> - `True`: Widget will be highlighted on mouse hover.
 
 
-Parameters
-----------
+
+## Parameters
+
 
 `*widgets: Widget`
 
@@ -149,16 +153,44 @@ sk.HoverBoxit(enable_events = True, on_event = {"size": lambda ins,v: print("siz
 > Width of the widget's border line.
 
 
-Returns
--------
+## Returns
+
 `BoxLayout` created dynamically with `*widgets` added as children during creation.
 
-Kivy Bases
-----------
+## Kivy Bases
+
 `BoxLayout`
 
 
 {: .prompt-info }
 
 > This page only details the new or modified features. All other parameters inherit from the base Kivy widgets and can be found in the [official Kivy documentation](https://kivy.org/doc/stable).
+
+
+
+## Properties
+
+## Events
+
+
+## When created with *hover_highlight = True*
+
+### Properties
+
+
+`tooltip_text (StringProperty)`: Tooltip to be displayed when the mouse hovers over the `HoverBoxit` widget. Default is `""`.
+
+`tooltip_args (ObjectProperty)`: Dictionary of `Label` properties for the tooltip widget. See [Label](/posts/Label/). Default tooltip properties are `dict(color="#CCCCCC", bcolor=(.13,.13,.13,1), lcolor="gray", valign="middle", size="y30", size_behavior="texth", padding=[4,4,4,4])`.
+
+`do_highlight (BooleanProperty)`: Whether the widget is highlighted when the mouse hovers over it. Default is `True`.
+
+
+
+### Events
+
+
+`on_enter()`: Fired when the mouse enters the widget.
+
+`on_leave()`: Fired when the mouse leaves the widget.
+
 

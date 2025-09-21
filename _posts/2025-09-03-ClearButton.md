@@ -8,17 +8,14 @@ categories: ["Api", "Widgets"]
 tags: ['button', 'clear']
 
 ---
-`SimpleKivy.SimpleKivy.ClearButton(text='button', hover_highlight=True, lcolor='', markup=True, **kwargs)`{: .python}
+`SimpleKivy.SimpleKivy.ClearButton(text='clearbutton', hover_highlight=True, lcolor='', markup=True, **kwargs)`{: .python}
 
 
 ![ClearButton.png](assets/img/docs/ClearButton.png){: width="170" height="60" }
 
 
-{: .prompt-info }
+Initializes `FlatButton` with `(text='clearbutton', hover_highlight=True, lcolor='', markup=True, **kwargs)` as default arguments. See [FlatButton](/posts/FlatButton/).
 
-> The documentation of this widget creator function is under construction. Please come back at a latter date.
-
-Alias
------
+## Alias
 - **ClearB**
 - **ClearButton**

@@ -18,8 +18,7 @@ tags: ['artistlist', 'list']
 
 > The documentation of this widget creator function is under construction. Please come back at a latter date.
 
-Alias
------
+## Alias
 - **Artistlist**
 - **RStack**
 - **RStackit**

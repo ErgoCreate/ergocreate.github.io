@@ -18,7 +18,6 @@ tags: ['bar', 'h', 'touch']
 
 > The documentation of this widget creator function is under construction. Please come back at a latter date.
 
-Alias
------
+## Alias
 - **BarTouch**
 - **BarTouchH**

@@ -16,10 +16,10 @@ tags: ['layout', 'layout constructor', 'relative', 'round']
 ![RoundRelativeit.2.png](assets/img/docs/RoundRelativeit.2.png){: width="510" height="226" }
 
 
-Dynamic `RelativeLayout` constructor width rounded corners for the border line and background color.
+Dynamic `RelativeLayout` constructor with rounded corners for the border line and background color.
 
-Parameters
-----------
+## Parameters
+
 
 `*widgets: Widget`
 
@@ -153,12 +153,12 @@ sk.RoundRelativeit(enable_events = True, on_event = {"size": lambda ins,v: print
 > Default is `False`.
 
 
-Returns
--------
+## Returns
+
 `RelativeLayout` created dynamically with `*widgets` added as children during creation.
 
-Kivy Bases
-----------
+## Kivy Bases
+
 `RelativeLayout`
 
 

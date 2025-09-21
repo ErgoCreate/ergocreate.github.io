@@ -18,20 +18,22 @@ tags: ['label', 'paged', 'text']
 
 Creates a PagedText widget.
 
-Dynamic Creation Parameters
----------------------------
+## Dynamic Creation Parameters
+
+
 `focus_behavior: bool`
 
 > Whether the widget will have FocusBehavior:
 
-> - `False`: No focus behavior
+> - `False`: No focus behavior.
 
-> - `True`: Widget class created with FocusBehavior
+> - `True`: Widget class created with FocusBehavior.
+
 
 > Default is False.
 
-Parameters
-----------
+## Parameters
+
 `pages: list`
 
 > A list where each element is a string representing each page
@@ -164,27 +166,27 @@ sk.PagedText(enable_events = True, on_event = {"size": lambda ins,v: print("size
 > Default is `False`.
 
 
-Returns
--------
+## Returns
+
 `Label` widget created dynamically with the following modifications:
 
 
-Properties
-----------
+## Properties
+
 `page (NumericProperty)`: Page index. Defaults to `None`.
 
 `pages (ListProperty)`: Initialized with the `pages` parameter. Defaults to `[]`.
 
 
-Events
-------
+## Events
+
 `on_page(ins,val)`: Fired when the current page index is changed.
 
 `on_pages(ins,val)`: Fired when the value of pages is set.
 
 
-Methods
--------
+## Methods
+
 `reload()`: Sets page to 0 if pages is not empty.
 
 `empty()`: Sets pages to [''] and clears current text.
@@ -194,8 +196,8 @@ Methods
 `previous_page()`: Goes to the previous page.
 
 
-Kivy Bases
-----------
+## Kivy Bases
+
 `Label`
 
 

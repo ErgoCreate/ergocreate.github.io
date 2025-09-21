@@ -13,8 +13,8 @@ tags: ['modal', 'view']
 
 Creates and fills a ModalView widget dynamically with added functionalities.
 
-Parameters
-----------
+## Parameters
+
 `widgets: list, Widget`
 
 > Widget instance or list of widgets to be added dynamically.
@@ -113,12 +113,12 @@ sk.ModalView(enable_events = True, on_event = {"size": lambda ins,v: print("size
 > Default is `False`.
 
 
-Returns
--------
+## Returns
+
 `ModalView` widget created dynamically.
 
-Kivy Bases
-----------
+## Kivy Bases
+
 `ModalView`
 
 

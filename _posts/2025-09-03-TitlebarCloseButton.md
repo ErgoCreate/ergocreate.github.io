@@ -8,7 +8,7 @@ categories: ["Api", "Widgets"]
 tags: ['button', 'close', 'titlebar']
 
 ---
-`SimpleKivy.SimpleKivy.TitlebarCloseButton(markup=True, k=-67191210201, size='x44', hover_highlight=True, lcolor='', bcolor_down='red', **kwargs)`{: .python}
+`SimpleKivy.SimpleKivy.TitlebarCloseButton(markup=True, k=NOTKEY, size='x44', hover_highlight=True, lcolor='', bcolor_down='red', **kwargs)`{: .python}
 
 
 ![TitlebarCloseButton.png](assets/img/docs/TitlebarCloseButton.png){: width="45" height="45" }

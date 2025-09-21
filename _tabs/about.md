@@ -13,4 +13,4 @@ The project thrives on community input and grows with every contribution. Whethe
 Want to be part of it?
 - **Contribute on GitHub:** [github.com/ErgoCreate/SimpleKivy](https://github.com/ErgoCreate/SimpleKivy)
 - **Watch tutorials:** [youtube.com/@ErgoCreate](https://www.youtube.com/@ErgoCreate)
-- **Support the project:** [Donate](/donate.md)
+- **Support the project:** [Donate](/donate)

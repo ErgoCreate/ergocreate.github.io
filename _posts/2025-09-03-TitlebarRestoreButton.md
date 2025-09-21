@@ -8,7 +8,7 @@ categories: ["Api", "Widgets"]
 tags: ['button', 'restore', 'titlebar']
 
 ---
-`SimpleKivy.SimpleKivy.TitlebarRestoreButton(text_states=(None, None), markup=True, k=-67191210201, size='x44', lcolor='', hover_highlight=True, bcolor_down='gray', **kwargs)`{: .python}
+`SimpleKivy.SimpleKivy.TitlebarRestoreButton(text_states=(None, None), markup=True, k=NOTKEY, size='x44', lcolor='', hover_highlight=True, bcolor_down='gray', **kwargs)`{: .python}
 
 
 ![TitlebarRestoreButton.png](assets/img/docs/TitlebarRestoreButton.png){: width="45" height="45" }

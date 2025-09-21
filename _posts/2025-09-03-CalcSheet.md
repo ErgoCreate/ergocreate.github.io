@@ -14,6 +14,6 @@ tags: ['calc', 'sheet']
 ![CalcSheet.png](assets/img/docs/CalcSheet.png){: width="508" height="450" }
 
 
-{: .prompt-info }
+{: .prompt-warning }
 
-> The documentation of this widget creator function is under construction. Please come back at a latter date.
+> Experimental widget. Imagine a fusion of Excel and Python.

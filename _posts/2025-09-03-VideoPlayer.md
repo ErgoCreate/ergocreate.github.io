@@ -18,8 +18,8 @@ tags: ['player', 'video']
 
 Creates a VideoPlayer widget dynamically with added functionalities.
 
-Parameters
-----------
+## Parameters
+
 
 `k: None, str, or NOTKEY`
 
@@ -110,12 +110,12 @@ sk.VideoPlayer(enable_events = True, on_event = {"size": lambda ins,v: print("si
 > Default is `False`.
 
 
-Returns
--------
+## Returns
+
 `VideoPlayer` widget created dynamically.
 
-Kivy Bases
-----------
+## Kivy Bases
+
 `VideoPlayer`
 
 
