@@ -83,7 +83,7 @@ To simplify encapsulation of widgets, all `SimpleKivy` widgets support two arith
 - multiplication (`*`): Puts widgets next to each other horizontally, as if they were variables being multiplyed.
 - division (`/`): Puts widgets below one another vertically, as if they were variables being divided.
 
-In this context, the above layout can also be represented as $ \frac{Input \cdot Button}{Label} $ in a `(1 row, 1 column)` layout:
+In this context, the above layout can also be represented as $\frac{Input \cdot Button}{Label}$ in a `(1 row, 1 column)` layout:
 
 ```py
 lyt=[
@@ -164,3 +164,41 @@ def evman(app, ev):
             # do something
             pass
 ```
+
+## Widget lookup.
+When your *app* is **already running**, you can look up widgets by their ID, which is set by the `k` argument of `SimpleKivy` widgets.
+
+For example, if you define a label widget with `sk.Label("hello world", k="lbl")`, you can get a reference to it by:
+#### Through an instance of *MyApp*
+- `app["lbl"]`: The recomended method. With `app` being an instance of `MyApp` (the same as the first argument of the `event_manager`).
+- `app.ids["lbl"]`: Same as the above.
+- `app.ids.lbl`: When the *widget ID* adheres to variable naming conventions, you can access the widget by the `ids` atribute of an instance of `MyApp` using *dot notation*.
+
+#### Through *sk.ids*
+- `sk.ids["lbl"]`: Similar to the above, but you can access the widget by the `ids` atribute of the `SimpleKivy.SimpleKivy` submodule. The difference is that when the `k` argument is not explicitly set, a reference is not kept in the `sk.ids` attribute.
+- `sk.ids.lbl`: Similar to the above, but the *widget ID* must adhere to variable naming conventions to find it using *dot notation*.
+
+## Changing widget properties
+When you already have a reference to a widget and you want to modify its properties, for example changing the text of a label or the source of an image, it can be done as easily as:
+```py
+def evman(app,ev):
+    ...
+    app["lbl"].text = "New text"
+    ...
+```
+
+However, if you are managing multithreading tasks, you might get an error similar to `"Cannot create graphics instruction outside the main Kivy thread"`, in which case, any property that modifies visual elements in your *UI* will trigger errors. To solve this, the recommended solution is to schedule your property changes.
+
+`SimpleKivy` offers an *intituive foolproof* way to make sure your property updates are always scheduled in the *main kivy thread* as soon as possible.
+```py
+def evman(app,ev):
+    ...
+    app("lbl",text = "New text") # Foolproof property update
+    # You can also schedule property updates for multiple properties
+    # app("lbl", text = "New text", halign = "right", color = "red")
+    ...
+```
+
+This method allows you to schedule property updates that won't cause errors when trying tasks in the main thread or in other threads.
+
+There are other ways to achieve this. For more information see the `schedule_...` methods in the [class documentation of sk.MyApp](/posts/MyApp).
