@@ -186,10 +186,13 @@ def evman(app,ev):
     app["lbl"].text = "New text"
     ...
 ```
+When your events trigger an intensive or lengthy task, the *User Interface* will freeze, so separating the heavy tasks from *graphical related* tasks is often the first challenge that *noob UI developers* face.
 
-However, if you are managing multithreading tasks, you might get an error similar to `"Cannot create graphics instruction outside the main Kivy thread"`, in which case, any property that modifies visual elements in your *UI* will trigger errors. To solve this, the recommended solution is to schedule your property changes.
+The solution is [multithreading](/posts/multithreading).
 
-`SimpleKivy` offers an *intituive foolproof* way to make sure your property updates are always scheduled in the *main kivy thread* as soon as possible.
+However, if you are managing multithreading tasks, you might get an error similar to `"Cannot create graphics instruction outside the main Kivy thread"` when modifying properties that change visual elements in your *UI*. To solve this, the recommended solution is to schedule your property changes with `kivy.clock.Clock`.
+
+`SimpleKivy` offers an ***easier, intituive and foolproof*** way to make sure your widget property updates are always scheduled in the *main kivy thread* as soon as possible.
 ```py
 def evman(app,ev):
     ...
@@ -199,6 +202,45 @@ def evman(app,ev):
     ...
 ```
 
-This method allows you to schedule property updates that won't cause errors when trying tasks in the main thread or in other threads.
+This method allows you to schedule property updates that won't cause errors when updating your *UI* in the main thread or in other threads.
 
 There are other ways to achieve this. For more information see the `schedule_...` methods in the [class documentation of sk.MyApp](/posts/MyApp).
+
+## ProgressBar Example
+With the concepts mentioned above, we will make a simple program that runs a *heavy task*, and shows the progress in the *UI*.
+
+![](assets/img/examples/progress_heavy_task.png){: width="500"}
+
+```py
+import SimpleKivy.SimpleKivy as sk
+import time
+
+lyt=[
+    [sk.T('Run a heavy task in a thread',size='y30')*sk.B('run',k='run-thread',size='y30')],
+    [sk.T('Run a heavy task in the main thread',size='y30')*sk.B('run',k='run-main',size='y30')],
+    [sk.T(k='msg')],
+    [sk.ProgressBar(k='pb',max=30)]
+]
+
+def evman(app,ev):
+    if ev=='run-main':
+        app.call_event('heavy-task')
+    elif ev=='run-thread':
+        app.thread_event('heavy-task')
+    
+    elif ev=='heavy-task':
+        app('msg',text='')
+        for i in range(31):
+            app('msg',text=f'{int(100*i/30)}%')
+            app('pb',value=i)
+            time.sleep(.1)
+        app('msg',text='Finished!')
+        
+app=sk.MyApp(
+    layout=lyt,
+    event_manager=evman,
+)
+
+app.run()
+```
+When you run the *heavy task* in a thread, the *UI* behaves as expected. When you run it in the main thread, the *UI* freezes. Copy this code and try it yourself!

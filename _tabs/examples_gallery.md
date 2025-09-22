@@ -26,7 +26,7 @@ Allows scanning and basic interaction with ***BLE*** (Bluetooth Low Energy) devi
             
 ![{Image2Pixel}](/assets/img/examples/gallery/Image2Pixel.jpg){: .normal width="300px" }
 
-Procedural operations (not **AI**) and tools to convert images into beautiful pixel art...
+Make beautiful pixel art from regular images with procedural operations (not **AI**)...
 
 
 ## [MiniPlayer](/examples/gallery/MiniPlayer.html)

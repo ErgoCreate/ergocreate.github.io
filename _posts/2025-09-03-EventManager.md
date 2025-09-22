@@ -26,7 +26,7 @@ Optimized for speed in applications with a huge amount of different events.
 `@EventManager.rule( rule_callback = function )`: Sets a callback for any event that meets a custom rule function. Needs the positional argument `rule_callback`, which has to be a function that accepts **one** argument, and returns a value that can be converted to `bool`, for example: `True, False, None, "hello", "", 0, 1`. Rule testing is only performed once. If the `bool` conversion returns `True` by the `rule_callback`, the event is cached to immediately trigger the callback decorated with `rule` when triggering the same event id again.
 
 
-`@EventManager.unhandled`: Sets a callback for any event that is not catched by any other rule.
+`@EventManager.unhandled`: Sets a callback for any event that is not caught by any other rule.
 
 
 Exact matches (set by the `event` decorator) are always tested first before `rule` decorator testing.

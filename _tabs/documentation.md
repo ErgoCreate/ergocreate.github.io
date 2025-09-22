@@ -66,6 +66,7 @@ In `SimpleKivy`, widgets are created dynamically by creator functions, which con
 - [FlatToggleButton](/posts/FlatToggleButton)
 - [FlatToggleButtonAngle](/posts/FlatToggleButtonAngle)
 - [Floatit](/posts/Floatit)
+- [Frame](/posts/Frame)
 - [Grid](/posts/Grid)
 - [HoverBoxit](/posts/HoverBoxit)
 - [Image](/posts/Image)

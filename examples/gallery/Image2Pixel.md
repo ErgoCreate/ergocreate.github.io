@@ -3,9 +3,11 @@ layout: post
 title:  "Image2Pixel"
 # categories: ["Example", "Info"]
 ---
-Procedural operations (not **AI**) and tools to convert images into beautiful pixel art. 
+Make beautiful pixel art from regular images with procedural operations (not **AI**).
 
-*Control each step and get the result that you want, not wath is randomly generated.*
+***Control each step and get the result that you want, not what is randomly generated.***
+
+Ideal for making *Retro-Style* video game assets.
 
 {: .prompt-info }
 > 🚧 Under construction.

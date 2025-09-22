@@ -7,8 +7,7 @@ title:  "WhatsControl"
 
 *User Interface* made with [SimpleKivy](https://ergocreate.github.io/simplekivy).
 
-{: .prompt-info }
-> 🌐 [Website](https://payhip.com/b/7ngSG)
+- 🌐 [Website](https://payhip.com/b/7ngSG)
 
 {: .prompt-info }
 > 🔒 Source not publicly available.
