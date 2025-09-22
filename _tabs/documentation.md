@@ -10,7 +10,7 @@ Welcome to SimpleKivy
 
 SimpleKivy is an open-source Python library that provides a simplified and intuitive way to build modern, cross-platform GUI applications, harnessing the full graphical power of the Kivy framework.
 
-We recommend that you [get started](/posts/getting-started/) with the installation guide. Then, jump right into the [Quickstart Tutorial](/posts/quickstart) to see how easy it is to build your first app. If you're impatient to see code, check out our [Examples](examples.md) page.
+We recommend that you [get started](/posts/getting-started/) with the installation guide. Then, jump right into the [Quickstart Tutorial](/posts/quickstart) to see how easy it is to build your first app. If you're impatient to see code, check out our [Examples](/examples) page or check out projects made with `SimpleKivy` in our [Gallery](/gallery).
 
 ## Getting Help
 

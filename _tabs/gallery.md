@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Examples Gallery"
+title:  "Gallery"
 # categories: ["Examples", "Gallery"]
 icon: fas fa-images
 order: 7
