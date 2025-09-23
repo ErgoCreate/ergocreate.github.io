@@ -23,13 +23,17 @@ layout=[
 ]
 
 def evman(app,ev):
-    if ev=='url':
+    if ev=='__Start__':
+        def on_loaded():
+            app("url",text=app.ids.web.window.get_current_url())
+        app.ids.web.window.events.loaded += on_loaded
+    elif ev=='url':
         new_url=app.ids.url.text
         if not new_url.startswith('http'):
             new_url='https://'+new_url
             app('url',text=new_url)
         app.ids.web.window.load_url(new_url)
-    if ev[:5]=='goto:':
+    elif ev[:5]=='goto:':
         app('url',text=ev[5:])
         app.trigger_event('url')
 

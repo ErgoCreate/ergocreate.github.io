@@ -39,7 +39,7 @@ sk.RoundButtonRelativeit(sk.Label('a'), sk.Label('b'), sk.Label('c'), )
 
 > - `str: "{hex_string}"`: Hex color in the format `"#000000"`.
 
-> - `str: "{named_color}"`: Name of a color from the [list of named colors](/posts/named_colors) supported by `SimpleKivy`.
+> - `str: "{named_color}"`: Name of a color from the [List of Named Colors](/posts/named_colors) supported by `SimpleKivy`.
 
 
 >> `bcolor`: Background color of the widget.

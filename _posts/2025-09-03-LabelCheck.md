@@ -131,7 +131,9 @@ sk.LabelCheck(enable_events = True, on_event = {"size": lambda ins,v: print("siz
 
 ## Kivy Bases
 
-`BoxLayout, Label, CheckBox`
+- `BoxLayout`
+    - `Label`
+    - `CheckBox`
 
 
 {: .prompt-info }

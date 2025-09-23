@@ -23,8 +23,15 @@ If your question isn't answered in the documentation, you can:
 
 ## Classes
 
-- [MyApp](/posts/MyApp)
 - [EventManager](/posts/EventManager)
+- [MyApp](/posts/MyApp)
+    - [MyApp.AskDirectory](/posts/MyApp.AskDirectory)
+    - [MyApp.askdirectory](/posts/MyApp.askdirectory_)
+    - [MyApp.AskOpenFile](/posts/MyApp.AskOpenFile)
+    - [MyApp.askopenfile](/posts/MyApp.askopenfile_)
+    - [MyApp.askopenfiles](/posts/MyApp.askopenfiles)
+    - [MyApp.asksaveasfile](/posts/MyApp.asksaveasfile)
+    - [MyApp.infotip](/posts/MyApp.infotip)
 
 ## Widgets
 In `SimpleKivy`, widgets are created dynamically by creator functions, which construct the classes depending on creation parameters, besides the regular arguments. Below is a list of currently supported widget creator functions.

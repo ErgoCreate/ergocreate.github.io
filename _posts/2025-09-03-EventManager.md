@@ -3,7 +3,7 @@ layout: post
 
 title:  "EventManager"
 
-categories: ["Api", "Classes"]
+categories: ["Api", "Classes", ]
 
 tags: ['event', 'manager']
 

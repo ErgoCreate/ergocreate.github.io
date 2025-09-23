@@ -62,7 +62,7 @@ Creates a *Flat-style* button widget dynamically with added functionalities.
 
 > - `str: "{hex_string}"`: Hex color in the format `"#000000"`.
 
-> - `str: "{named_color}"`: Name of a color from the [list of named colors](/posts/named_colors) supported by `SimpleKivy`.
+> - `str: "{named_color}"`: Name of a color from the [List of Named Colors](/posts/named_colors) supported by `SimpleKivy`.
 
 
 >> `bcolor_normal`: Background color of the widget when `state="normal"`.
@@ -178,7 +178,8 @@ sk.FlatButton(enable_events = True, on_event = {"size": lambda ins,v: print("siz
 
 ## Kivy Bases
 
-`BoxLayout, Label`
+- `BoxLayout`
+    - `Label`
 
 
 {: .prompt-info }

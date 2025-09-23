@@ -47,7 +47,7 @@ Creates a `BoxLayout` widget with `ButtonBehavior` dynamically with added functi
 
 > - `str: "{hex_string}"`: Hex color in the format `"#000000"`.
 
-> - `str: "{named_color}"`: Name of a color from the [list of named colors](/posts/named_colors) supported by `SimpleKivy`.
+> - `str: "{named_color}"`: Name of a color from the [List of Named Colors](/posts/named_colors) supported by `SimpleKivy`.
 
 
 >> `bcolor_normal`: Background color of the widget when `state="normal"`.
